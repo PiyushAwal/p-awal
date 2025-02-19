@@ -1,5 +1,4 @@
-# p-awal
-this is my first repository
-author:piyush awal
-
-
+i=10
+j=20
+add=i+j
+print("addition=",add)
