@@ -102,4 +102,41 @@ celcius= 37.77777777777778 c
 fahrenheit= 77.0
 ----------------------------------------------------------------------------------
 program no.7 mathematical formula
+r=int(input("enter the radius of the circle:"))
+area_c=3.14*r*r
+print("area of the circle:",area_c)
+cicumference=2*3.14*r
+print("the cicumference of the circle:",cicumference)
+side=int(input("enter the side:"))
+area_s=side*side
+print("area of the square:",area_s)
+peri_s=4*side
+print("perimeter of the square is:",peri_s)
+base=int(input("enter the base:"))
+height=int(input("enter the height:"))
+area_t=0.5*base*height
+print("area of the triangle is:",area_t)
+base1=int(input("enter the base2:"))
+area_tra=0.5*(base+base1)*height
+print("area of the trapezoid:",area_tra)
+width=int(input("enter the width:"))
+length=int(input("enter the length:"))
+peri_r=2*(length+width)
+print("perimeter of the rectangle:",peri_r)
+
+output
+enter the radius of the circle:20
+area of the circle: 1256.0
+the cicumference of the circle: 125.60000000000001
+enter the side:20
+area of the square: 400
+perimeter of the square is: 80
+enter the base:10
+enter the height:20
+area of the triangle is: 100.0
+enter the base2:25
+area of the trapezoid: 350.0
+enter the width:30
+enter the length:25
+perimeter of the rectangle: 110
 
