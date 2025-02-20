@@ -1,3 +1,4 @@
+#program no.1 arithmetic operation
 A=int(input("enter the value of A:"))
 B=int(input("enter the value of the B:"))
 print("addition=",A+B)
@@ -14,3 +15,31 @@ substraction= 5
 multiplication= 50
 division= 2.0
 modulus= 0
+------------------------------------------------------------------------------------------
+#program no.2 swapping of two numbers
+A=input("Enter the value of A:")
+B=input("Enter the value of B:")
+print("-----------BEFORE SWAPPING------------")
+print("A=",A)
+print("B=",B)
+temp=0
+temp=A
+A=B
+B=temp
+print("-----------AFTER SWAPPING-------------")
+print("A=",A)
+print("B=",B)
+
+output
+Enter the value of A:10
+Enter the value of B:20
+-----------BEFORE SWAPPING------------
+A= 10
+B= 20
+-----------AFTER SWAPPING-------------
+A= 20
+B= 10
+------------------------------------------------------------------------------------------
+
+#program no.3 swapping of two numbers without usinng third operators
+
