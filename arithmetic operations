@@ -78,3 +78,28 @@ enter the value of B: 2
 floor division= 32
 modules= 1
 -----------------------------------------------------------------------------------------
+program no.5 dollar to rupees
+Dollar=float(input("Enter the dollar:"))
+INR=86.63*Dollar
+print("indian rupees=",INR)
+
+output
+Enter the dollar:20
+indian rupees= 1732.6
+--------------------------------------------------------------------------------------
+program no.6 conversion of temperature
+F=float(input("Enter the temperature fahrenheit:"))
+celcius=float(input("enter the temperature in celcius:"))
+c=(F-32)*5/9
+Fahrenheit=(celcius*(9/5))+32
+print("celcius=",c,"c")
+print("fahrenheit=",Fahrenheit)
+
+output
+Enter the temperature fahrenheit:100
+enter the temperature in celcius:25
+celcius= 37.77777777777778 c
+fahrenheit= 77.0
+----------------------------------------------------------------------------------
+program no.7 mathematical formula
+
