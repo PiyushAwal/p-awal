@@ -42,4 +42,39 @@ B= 10
 ------------------------------------------------------------------------------------------
 
 #program no.3 swapping of two numbers without usinng third operators
+#swapping of two numbers 
+A=input("Enter the value of A:")
+B=input("Enter the value of B:")
+print("-----------BEFORE SWAPPING------------")
+print("A=",A)
+print("B=",B)
+A=B
+B=A
+print("-----------AFTER SWAPPING-------------")
+print("A=",A)
+print("B=",B)
 
+output
+Enter the value of A:10
+Enter the value of B:20
+-----------BEFORE SWAPPING------------
+A= 10
+B= 20
+-----------AFTER SWAPPING-------------
+A= 20
+B= 20
+----------------------------------------------------------------------------------------
+program no.4 modulus and floor division operator
+A=int(input("enter the value of A: "))
+B=int(input("enter the value of B: "))
+module=A%B
+quotient=A//B
+print("floor division=",quotient)
+print("modules=",module)
+
+output
+enter the value of A: 65
+enter the value of B: 2
+floor division= 32
+modules= 1
+-----------------------------------------------------------------------------------------
