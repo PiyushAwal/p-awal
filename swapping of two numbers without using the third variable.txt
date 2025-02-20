@@ -1,0 +1,11 @@
+#swapping of two numbers 
+A=input("Enter the value of A:")
+B=input("Enter the value of B:")
+print("-----------BEFORE SWAPPING------------")
+print("A=",A)
+print("B=",B)
+A=B
+B=A
+print("-----------AFTER SWAPPING-------------")
+print("A=",A)
+print("B=",B)
