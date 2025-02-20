@@ -1,0 +1,16 @@
+A=int(input("enter the value of A:"))
+B=int(input("enter the value of the B:"))
+print("addition=",A+B)
+print("substraction=",A-B)
+print("multiplication=",A*B)
+print("division=",A/B)
+print("modulus=",A%B)
+
+output
+enter the value of A:10
+enter the value of the B:5
+addition= 15
+substraction= 5
+multiplication= 50
+division= 2.0
+modulus= 0
