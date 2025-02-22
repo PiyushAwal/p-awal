@@ -166,4 +166,126 @@ Annual rate:5
 time period in years:3
 the total interest is: 5788.125000000001
 ------------------------------------------------------------------------------------------
+program no.10 eligible for the vote or note
+age=int(input("enter the age:"))
+if age>=18:
+    print("eligible for the vote")
+else:
+    print("not eligible for the vote")
 
+output
+enter the age:17
+not eligible for the vote
+enter the age:19
+eligible for the vote
+-------------------------------------------------------------------------------------
+program 11.even or odd
+num=int(input("Enter the number:"))
+if num%2==0:
+    print("Enter number is the even number")
+else:
+    print("Enter number is the odd number")
+
+output 
+Enter the number:42
+Enter number is the even number
+
+Enter the number:45
+Enter number is the odd number
+---------------------------------------------------------------------------------------
+program no.12 number is positive negative or zero
+num=int(input("Enter the number:"))
+if num>0:
+    print("Number is the positive")
+elif num<0:
+    print("Number is the negative")
+elif num==0:
+    print("Number is the zero")
+
+output
+Enter the number:10
+Number is the positive
+Enter the number:-10
+Number is the negative
+Enter the number:0
+Number is the zero
+----------------------------------------------------------------------------------------
+program no.13 leap year or not
+year=int(input("Enter the year:"))
+if year%4==0:
+    print("Year is the leap year")
+else:
+    print("Year is not leap year")
+
+output
+Enter the year:1996
+Year is the leap year
+Enter the year:2025
+Year is not leap year
+----------------------------------------------------------------------------------------
+program no.14 grateast among the three number 
+
+num1=int(input("Enter the value of num1:"))
+num2=int(input("Enter the value of num2:"))
+num3=int(input("Enter the value of num3:"))
+if num1>num2 and num1>num3:
+    print("Num1 is the greter:",num1)
+elif num2>num1 and num2>num3:
+    print("Num2 is the greter:",num2)
+elif num3>num1 and num3>num1:
+    print("Num3 is the greter:",num3)
+
+output 
+Enter the value of num1:25
+Enter the value of num2:15
+Enter the value of num3:10
+Num1 is the greter: 25
+
+Enter the value of num1:10
+Enter the value of num2:20
+Enter the value of num3:5
+Num2 is the greter: 20
+
+Enter the value of num1:10
+Enter the value of num2:20
+Enter the value of num3:30
+Num3 is the greter: 30
+-------------------------------------------------------------------------------------
+program no.15 accept the age of five person and find the youngest among them
+person1=int(input("Enter the age of the person1:"))
+person2=int(input("Enter the age of the person2:"))
+person3=int(input("Enter the age of the person3:"))
+person4=int(input("Enter the age of the person4:"))
+person5=int(input("Enter the age of the person5:"))
+if person1>=15 and person1<=40:
+    print("Person1 is young")
+if person2>=15 and person2<=40:
+    print("person2 is young")
+if person3>=15 and person3<=40:
+    print("person3 is youbg")
+if person4>=15 and person4<=40:
+    print("person4 is young")
+if person5>=15 and person5<=40:
+    print("person5 is young")
+
+output:
+Enter the age of the person1:25
+Enter the age of the person2:15
+Enter the age of the person3:25
+Enter the age of the person4:36
+Enter the age of the person5:25
+Person1 is young
+person2 is young
+person3 is youbg
+person4 is young
+person5 is young
+
+Enter the age of the person1:25
+Enter the age of the person2:24
+Enter the age of the person3:98
+Enter the age of the person4:97
+Enter the age of the person5:100
+Person1 is young
+person2 is young
+-----------------------------------------------------------------------------------------------
+program no.16 prime number 
