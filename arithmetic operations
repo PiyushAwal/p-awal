@@ -289,3 +289,20 @@ Person1 is young
 person2 is young
 -----------------------------------------------------------------------------------------------
 program no.16 prime number 
+num=int(input("Enter the number:"))
+for i in range(2,num):
+    if num%i==0:
+        print(num,"is not prime number")
+        break
+    else:
+        print(num,"is prime number")
+        break
+
+output 
+Enter the number:5
+5 is prime number
+Enter the number:10
+10 is not prime number
+-------------------------------------------------------------------------------------------------
+program no.17 Eligibility of examination based on attendance
+
