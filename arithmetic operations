@@ -306,3 +306,59 @@ Enter the number:10
 -------------------------------------------------------------------------------------------------
 program no.17 Eligibility of examination based on attendance
 
+#Eligibility of examination based on attendance
+Attendence=int(input("Enter the attendence of the student:"))
+if Attendence>=75:
+    print("Eligible for the examination")
+elif Attendence<75:
+    print("Not eligible for the examination")
+
+output:
+Enter the attendence of the student:75
+Eligible for the examination
+Enter the attendence of the student:45
+Not eligible for the examination
+---------------------------------------------------------------------------------------------------
+program no.18 Generate result based on criteria
+Marks=int(input("Enter the marks:"))
+if Marks>=90 and Marks<=100:
+    print("GRADE=A")
+elif Marks>=75 and Marks<90:
+    print("GRADE=B")
+elif Marks>=45 and Marks<75:
+    print("GRADE=C")
+elif Marks<=45:
+    print("FAIL")
+else :
+    print("Enter the valid marks")
+
+Output:
+Enter the marks:99
+GRADE=A
+Enter the marks:78
+GRADE=B
+Enter the marks:59
+GRADE=C
+Enter the marks:12
+FAIL
+--------------------------------------------------------------------------------------------------
+Program no.19
+#Generate electric bill
+unit=int(input("Enter the unit:"))
+if unit>0 and unit<=100:
+    payamt=unit*1.5
+    fixedcharge=25
+elif unit>=100 and unit<=200:
+    payamt=(100*1.5)+(unit-100)*2.5
+    fixedcharge=50
+elif unit>=200 and unit<=300:
+    payamt=(100*1.5)+(200-100)*2.5+(unit-200)*4
+    fixedcharge=75
+elif unit>=300 and unit<=350:
+    payamt=(100*1.5)+(200-100)*2.5+(300-200)*4+(unit-300)*5
+    fixedcharge=100
+else:
+    payamt=0
+    fixedcharge=2500
+Total=payamt+fixedcharge 
+    
